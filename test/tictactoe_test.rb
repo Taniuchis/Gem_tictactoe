@@ -9,7 +9,7 @@ class TictactoeTest < Minitest::Test
     assert false
   end
 
-  # def test_version
-  # 	assert_equal "0.1.0", Tictactoe:: VERSION
-  # end
+  def test_version
+  	assert_equal "0.1.0", Tictactoe:: VERSION
+  end
 end
